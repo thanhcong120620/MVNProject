@@ -15,7 +15,7 @@ public class UserAPI {
 
 
     @GetMapping
-    public ResponseEntity<String> SayHello(){
+    public ResponseEntity<String> HelloWorld(){
         return ResponseEntity.ok("Hello world");
     }
 
